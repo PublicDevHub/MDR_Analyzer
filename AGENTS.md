@@ -50,6 +50,8 @@ Create a `main.py` and necessary modules implementing the following logic:
     - System Prompt: Enforce strict adherence to the provided context. If the answer is not in the context, state "I don't know".
 
 ### Step 2: Frontend Implementation (`/frontend`)
+**Note: Frontend implementation is currently postponed. Interaction will be handled via a terminal client for now.**
+
 Create a Next.js application:
 
 1.  **Layout:** A "Split Screen" or "Sidebar" layout.
@@ -69,7 +71,7 @@ Create a Next.js application:
     All code must be accompanied by unit tests.
     
     Use `pytest` as the testing framework for python.
-    Use  the best suiting testing framework for frontend. suggest one and stick to ist. 
+    Use **Vitest** + **React Testing Library** for the frontend.
     
     Create a `tests/` directory and ensure tests cover:
         - Parsing logic (identifying articles, extracting fields).
