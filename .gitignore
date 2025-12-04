@@ -6,6 +6,7 @@ __pycache__/
 output/
 *.pyc
 .pytest_cache/
+*.log
 # Environments
 .venv/
 env/
@@ -13,3 +14,9 @@ venv/
 # IDE settings 
 .vscode/
 .idea/
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+
